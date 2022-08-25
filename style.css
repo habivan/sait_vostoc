@@ -26,6 +26,13 @@ header {
     height: 150px;
 }
 
+@media screen and (max-width: 576px) {
+.adres {
+padding-top: 100px;
+align: left !important;
+}
+}           
+
 .adres p {
 	font-size: 25px;
 }
@@ -46,6 +53,12 @@ header {
 .telefon p {
 	font-size: 25px;
 }
+
+@media screen and (max-width: 576px) {
+.telefon {
+padding-top: 300px;
+}
+}      
 
 
 .krug {
