@@ -4,8 +4,9 @@ header {
 	margin-left: 0;
 }
 
-.row {
-	margin: 0;
+.cont {
+	
+	position: relative;
 }
 
 .head {
@@ -26,12 +27,15 @@ header {
 }
 
 .adres p {
-	margin-right: 35%;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .adres .tel {
 	font-size: 30px;
+}
+
+.sredni {
+	background-color: #FFA812;
 }
 
 .telefon {
@@ -40,29 +44,28 @@ header {
 }
 
 .telefon p {
-	margin-left: 20%;
-	margin-top: 40px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
-.telefon img {
-	width: 32px;
-	
-}
 
 .krug {
-	position: absolute;
-	margin-top: 40px;
-	margin-left: 40%;
+	
+	margin: auto;
   	width:    300px;
   	height:   300px;
 	background-color: #000000;
 	border-radius: 50%;
 }
 
+.krugvrot {
+	position: absolute;
+	width: 100%;
+	padding-top: 40px;
+}
+
 .krug h1 {
 	color: #ffffff;
-	margin-top: 90px;
+	padding-top: 90px;
 	font-size: 70px;
 }
 
@@ -70,4 +73,23 @@ header {
 	color: #ffffff;
 	margin-top: px;
 	font-size: 30px;
+}
+
+main {
+	background-color: #FFA812;
+}
+
+.rol_1 {
+	text-align: center;
+	padding-top:  100px;
+}
+
+.nazvanie {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.nazvanie p {
+	background-color: #EBD9A8;
+	color: #000000;
 }
