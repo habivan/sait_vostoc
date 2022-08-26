@@ -21,17 +21,42 @@ header {
     height: 50px;
 }
 
+nav {
+	background-color: #FFA812;
+	margin: auto;
+}
+
+.nav {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	
+}
+
+.nav ul {
+    list-style: none; 
+  	margin: 0; 
+  	padding-left: 0; 
+}
+
+.nav ul li {
+	float:left; 
+  	margin-right:5px;
+  	font-size: 30px;
+  	display: table-cell;
+}
+
 .adres {
 	background-color: #FFA812;
     height: 150px;
 }
 
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
 .adres {
 padding-top: 100px;
 align: left !important;
 }
-}           
+}  */         
 
 .adres p {
 	font-size: 25px;
@@ -53,13 +78,6 @@ align: left !important;
 .telefon p {
 	font-size: 25px;
 }
-
-@media screen and (max-width: 576px) {
-.telefon {
-padding-top: 300px;
-}
-}      
-
 
 .krug {
 	
@@ -94,7 +112,7 @@ main {
 
 .rol_1 {
 	text-align: center;
-	padding-top:  100px;
+	/*padding-top:  100px;*/
 }
 
 .nazvanie {
@@ -105,4 +123,5 @@ main {
 .nazvanie p {
 	background-color: #EBD9A8;
 	color: #000000;
+	height: 100px;
 }
