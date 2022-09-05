@@ -22,30 +22,11 @@ header {
 }
 
 nav {
-	background-color: #FFA812;
+	background-color: #000000;
 	margin: auto;
-}
-/*
-.nav {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	
-	
+	padding-bottom: 100px;
 }
 
-.nav ul {
-    list-style: none; 
-  	margin: 0; 
-  	padding-left: 0; 
-}
-
-.nav ul li {
-	float:left; 
-  	margin-right:5px;
-  	font-size: 30px;
-  	display: table-cell;
-}
-*/
 .adres {
 	background-color: #FFA812;
     height: 150px;
@@ -107,7 +88,15 @@ align: left !important;
 }
 
 main {
+	padding-top: 50px;
 	background-color: #FFA812;
+}
+
+ .zezar img {
+	width: 150px;
+	position: absolute;
+	align: left;
+
 }
 
 .rol_1 {
