@@ -4,10 +4,6 @@ header {
 	margin-left: 0;
 }
 
-.cont {
-	
-	position: relative;
-}
 
 .head {
     background-color: #FFA812;
@@ -60,8 +56,11 @@ align: left !important;
 	font-size: 25px;
 }
 
+.black {
+	position: relative;
+}
+
 .krug {
-	
 	margin: auto;
   	width:    300px;
   	height:   300px;
@@ -92,16 +91,18 @@ main {
 	background-color: #FFA812;
 }
 
- .zezar img {
-	width: 150px;
-	position: absolute;
-	align: left;
+.rol1{
+	position: relative;
 
 }
 
-.rol_1 {
-	text-align: center;
-	/*padding-top:  100px;*/
+ .zezar  {
+	position: absolute;
+	top: ;
+}
+
+.zezar img {
+	width: 200px;
 }
 
 .nazvanie {
