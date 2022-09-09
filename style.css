@@ -23,6 +23,10 @@ nav {
 	padding-bottom: 100px;
 }
 
+.spisok {
+	width: 100%;
+}
+
 .adres {
 	background-color: #FFA812;
     height: 150px;
