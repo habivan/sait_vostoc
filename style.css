@@ -1,9 +1,34 @@
 header {
-	height: 350px;
 	margin-right: 0;
 	margin-left: 0;
 }
 
+.black {
+	background-color: #FFA812;
+	
+}
+
+.black div h3 {
+	background-color: #000000;
+	font-size: 50px;
+}
+
+.black div {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.black .krug {
+	background-color: #000000;
+	padding-top: 130px;
+	padding-bottom: 130px;
+    border-radius: 50%;
+    
+}
+
+.black .krug h1 {
+	font-size: 80px;
+}
 
 .head {
     background-color: #FFA812;
@@ -32,23 +57,12 @@ nav {
     height: 150px;
 }
 
-/*@media screen and (max-width: 576px) {
-.adres {
-padding-top: 100px;
-align: left !important;
-}
-}  */         
-
 .adres p {
 	font-size: 25px;
 }
 
 .adres .tel {
 	font-size: 30px;
-}
-
-.sredni {
-	background-color: #FFA812;
 }
 
 .telefon {
@@ -58,36 +72,6 @@ align: left !important;
 
 .telefon p {
 	font-size: 25px;
-}
-
-.black {
-	position: relative;
-}
-
-.krug {
-	margin: auto;
-  	width:    300px;
-  	height:   300px;
-	background-color: #000000;
-	border-radius: 50%;
-}
-
-.krugvrot {
-	position: absolute;
-	width: 100%;
-	padding-top: 40px;
-}
-
-.krug h1 {
-	color: #ffffff;
-	padding-top: 90px;
-	font-size: 70px;
-}
-
-.krug p {
-	color: #ffffff;
-	margin-top: px;
-	font-size: 30px;
 }
 
 main {
@@ -119,4 +103,11 @@ main {
 	background-color: #EBD9A8;
 	color: #000000;
 	height: 100px;
+}
+
+.nazvanie p span {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	bottom: 20px;
 }
