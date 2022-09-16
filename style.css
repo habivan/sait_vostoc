@@ -81,7 +81,17 @@ main {
 
 .rol1{
 	position: relative;
+	margin-bottom: 20px;
 
+}
+
+.rol1 .zen {
+	margin-top: -20px;
+	background-color: #FFFFFF;
+}
+
+.rol1 .zen h2 {
+	color: red;
 }
 
  .zezar  {
@@ -111,3 +121,4 @@ main {
 	font-size: 20px;
 	bottom: 20px;
 }
+
