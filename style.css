@@ -98,6 +98,11 @@ main {
 .rol1 .zen {
 	margin-top: -20px;
 	background-color: #FFFFFF;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-right: 5px;
+    padding-bottom: 1px;
+
 }
 
 .rol1 .zen h2 {
@@ -118,6 +123,8 @@ main {
 	background-color: #000000;
 	color: #ffffff;
 	padding-left: 200px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .nazvanie p {
@@ -131,6 +138,16 @@ main {
 	font-weight: bold;
 	font-size: 20px;
 	bottom: 20px;
+}
+
+
+
+.nazvanie h4 {
+	height: 87px;
+}
+
+footer {
+	background-color: #000000;
 }
 
 .but {
@@ -157,10 +174,15 @@ section .set p {
 	height: 100px;
 }
 
+section .set {
+	height: 464px;
+}
 
 section .set header {
 	background-color: #000000;
 	margin-bottom: 0;
+	border-radius: 20px;
+	
 }
 
 section .set  h3 {
@@ -183,4 +205,8 @@ section .set  h4 {
 	background-color: #ffffff;
 	font-size: 30px;
 	text-shadow: 1px 1px 2px black;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-right: 10px;
+    padding-bottom: 3px;
 }
