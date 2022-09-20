@@ -143,7 +143,8 @@ main {
 
 
 .nazvanie h4 {
-	height: 87px;
+	height: 100px;
+	padding-right: 10px;
 }
 
 footer {
@@ -168,15 +169,20 @@ section {
 	width: 300px;
 }
 
+
+@media (min-width: 992px){
+	section .set {
+		height: 465px;
+	}
+} 
+
+
 section .set p {
 	background-color: #EBD9A8;
 	color: #000000;
 	height: 100px;
 }
 
-section .set {
-	height: 464px;
-}
 
 section .set header {
 	background-color: #000000;
