@@ -11,6 +11,9 @@ header {
 .black div h3 {
 	background-color: #000000;
 	font-size: 50px;
+	
+	
+	
 }
 
 .black div {
@@ -23,6 +26,9 @@ header {
 	padding-top: 130px;
 	padding-bottom: 130px;
     border-radius: 50%;
+    width: 364px;
+    margin: auto;
+    z-index: 10;
     
 }
 
@@ -46,6 +52,10 @@ nav {
 	background-color: #000000;
 	margin: auto;
 	padding-bottom: 100px;
+}
+
+nav a {
+	font-size: 20px;
 }
 
 .spisok {
@@ -82,7 +92,7 @@ main {
 .rol1{
 	position: relative;
 	margin-bottom: 20px;
-
+	border-radius: 25px;
 }
 
 .rol1 .zen {
@@ -92,11 +102,12 @@ main {
 
 .rol1 .zen h2 {
 	color: red;
+	text-shadow: 1px 1px 2px black;
 }
 
  .zezar  {
 	position: absolute;
-	top: ;
+	top: 0;
 }
 
 .zezar img {
@@ -122,3 +133,54 @@ main {
 	bottom: 20px;
 }
 
+.but {
+	background-color: #000000;
+	margin: auto;
+	color: #ffffff;
+}
+
+.but img {
+	width: 32px;
+}
+
+section {
+	background-color: #FFA812;
+}
+
+.container .row .set img {
+	width: 300px;
+}
+
+section .set p {
+	background-color: #EBD9A8;
+	color: #000000;
+	height: 100px;
+}
+
+
+section .set header {
+	background-color: #000000;
+	margin-bottom: 0;
+}
+
+section .set  h3 {
+	color: #ffffff;
+	font-size: 50px;
+}
+
+section .set  h6 {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+section .set p span {
+	font-size: 20px;
+	color: red;
+}
+
+section .set  h4 {
+	color: red;
+	background-color: #ffffff;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black;
+}
